@@ -3,7 +3,19 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinAppStock", "WinAppStock.csproj", "{9B3DEE22-9E3A-434A-A1BA-C86D73D7DC26}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinAppStockUnitTests", "WinAppStockUnitTests\WinAppStockUnitTests.csproj", "{F839C523-2874-4B75-A181-C026D1B4494B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{001853F4-EAAD-4473-B898-EBB233981156}"
+	ProjectSection(SolutionItems) = preProject
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+		WinAppStock.vsmdi = WinAppStock.vsmdi
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = WinAppStock.vsmdi
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -13,6 +25,10 @@ Global
 		{9B3DEE22-9E3A-434A-A1BA-C86D73D7DC26}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B3DEE22-9E3A-434A-A1BA-C86D73D7DC26}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B3DEE22-9E3A-434A-A1BA-C86D73D7DC26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F839C523-2874-4B75-A181-C026D1B4494B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F839C523-2874-4B75-A181-C026D1B4494B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F839C523-2874-4B75-A181-C026D1B4494B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F839C523-2874-4B75-A181-C026D1B4494B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

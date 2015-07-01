@@ -268,7 +268,7 @@ namespace WinAppStock
         protected BaseStock(string name, string absolutePath)
         {
             this.name = name;
-            this.stockPath = absolutePath;
+            this.stockPath = absolutePath + "\\" + name;
             this.isRemoved = false;
 
             this.InitializeNewStock();
